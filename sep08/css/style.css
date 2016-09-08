@@ -1,0 +1,20 @@
+body {
+  background-image: url(../img/background.jpg);
+}
+img {
+  float: left;
+}
+header li {
+  display: inline-block;
+  width: 15px;
+  float: right;
+}
+header nav ul li {
+float: right;
+padding: 25px;
+color: hsla(0, 0%, 0%, 0);
+}
+section div h1 {
+  color: white;
+  
+}

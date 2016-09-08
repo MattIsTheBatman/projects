@@ -1,0 +1,34 @@
+body {
+  background-color: rgb(0, 174, 254)
+}
+main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+div {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+div:nth-of-type(1) {
+  background-color: white;
+}
+div:nth-of-type(2) {
+  background-color: rgb(83, 0, 255);
+}
+div:nth-of-type(3) {
+  background-color: rgb(0, 255, 41);
+}
+div:nth-of-type(4) {
+  background-color: rgb(255, 0, 199);
+}
+div:nth-of-type(5) {
+  background-color: rgb(219, 255, 0);
+}
+footer {
+ position:absolute;
+ bottom:0;
+ width:100%;
+ height:60px;  
+}
