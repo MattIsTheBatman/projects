@@ -1,19 +1,21 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  background-image: url(../img/background.jpg);
 }
-
 header {
   height: 500px;
-  background-image: url(../img/background.jpg);
   background-position: center;
   background-size: cover;
   color: white;
-
+}
+header a img {
+  height: 65px;
+  width: 65px;
 }
 h1 {
   font-size: 50px;
-  letter-spacing: -5px;
+  letter-spacing: -3px;
 }
 h1 span {
   color: hsl(194, 84%, 66%);
@@ -34,16 +36,11 @@ ul li{
   line-height: 50px;
   padding: 0 20px;
   margin-left: 10px;
-  /*padding: 23px 0;*/
 }
 ul li:hover{
   cursor: pointer;
 }
-ul li:hover, .active {
-  background-color:  hsl(194, 84%, 66%);
-  /*border-radius: 30px */
-  border-top-right-radius: 20px 50%;
-  border-bottom-right-radius: 20px 50%;
-  border-top-left-radius: 20px 50%;
-  border-bottom-left-radius: 20px 50%;
+img {
+padding-left: 60px;
+padding-top: 110px;
 }
