@@ -1,0 +1,40 @@
+body {
+margin: 0;
+}
+header {
+background-color: rgb(255, 144, 144)
+}
+header a img {
+  height: 65px;
+  width: 65px;
+}
+h1 {
+  float: left;
+}
+h2 {
+  float: left;
+  padding: 0 20px;
+  margin-left: 10px;
+  display: inline-block;
+  background-color: rgb(229, 241, 133);
+
+}
+ul {
+  margin: 0;
+
+}
+ul::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+ul li{
+  display: inline-block;
+  line-height: 100px;
+  padding: 0 20px;
+  margin-left: 10px;
+  float: right;
+}
+div:nth-of-type(2) {
+  vertical-align: bottom;
+}
