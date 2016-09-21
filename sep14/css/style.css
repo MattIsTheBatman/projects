@@ -1,0 +1,17 @@
+section {
+  height: 500px;
+  flex-direction: column;
+}
+.fc {
+  display: flex;
+}
+section > .fc {
+  flex: 3;
+}
+section div.div1{
+  background-color: hsl(225, 100%, 76%);
+  flex: 1;
+}
+section div.div2{
+  background-color: hsl(138, 100%, 68%);
+flex: .2;

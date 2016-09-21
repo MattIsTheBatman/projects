@@ -1,0 +1,19 @@
+body {
+}
+p {
+  background-color: hsl(0, 100%, 100%);
+}
+aside, article {
+  float: right;
+
+}
+aside {
+  width: 25%;
+  height: 600px;
+  background-color: red;
+}
+article {
+  width: 75%;
+  height: 600px;
+  background-color: black;
+}
