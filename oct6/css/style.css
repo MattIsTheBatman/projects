@@ -1,0 +1,110 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body{
+  margin:0;
+  font-family: 'Roboto',sans-serif;
+}
+nav h1{
+  background-image: url(../img/logo-229x39.png);
+  background-repeat: no-repeat;
+
+}
+header{
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/home-slider-1-slide-2.jpg);
+  background-position: center;
+  background-size: cover;
+  min-height: 400px;
+  color: white;
+}
+nav{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  font-size: 125%;
+}
+nav li a{
+  text-decoration: none;
+  color: inherit;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav> ul> li::after{
+  content: "/";
+  display: inline-block;
+  margin: 0 10px 0;
+}
+nav> ul> li{
+  position: relative;
+}
+nav li:last-child::after{
+  content: none;
+}
+nav ul ul{
+  width:200px;
+  display: none;
+  position: absolute;
+  top:100%;
+  left: 50%;
+  transform: translate3d(-50%, 0, 0);
+  background-color: hsla(0, 0%, 0%, .8);
+font-size: 100%;
+text-align: center;
+
+}
+nav ul ul a{
+  display: block;
+  padding: 20px 0;
+}
+nav> ul> li:hover ul{
+  display: block;
+}
+nav ul ul li{
+
+}
+nav h1 a{
+  width:229px;
+  height:39px;
+  display: block;
+  color: transparent;
+}
+header h2{
+  margin: auto;
+  font-size: 15vh;
+}
+/*
+SECTION GALLERY
+*/
+#gallery{
+  display: flex;
+  flex-wrap: wrap;
+}
+#gallery > div{
+  width: calc(100% / 4);
+  height: 28vw;
+  overflow: hidden;
+  position: relative;
+}
+#gallery > div >img{
+  width: 100%;
+  transform: scale(1.25);
+}
+#gallery div div{
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
