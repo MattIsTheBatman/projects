@@ -1,0 +1,103 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+body{
+  font-family: 'Roboto',sans-serif;
+}
+h2 {
+  text-transform: uppercase;
+}
+h2 + hr {
+  width: 15vw;
+  height: 3px;
+  background-color: hsla(198, 50%, 58%, 1);
+}
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: hsla(0, 0%, 90%, 1);
+}
+form {
+  margin-top: 50px;
+}
+form div {
+  display: flex;
+  padding: 0;
+  border: none;
+  margin-bottom: 10px;
+}
+form div:first-child input {
+  flex: 1;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+form div:first-child legend:last-child {
+  margin-right: 10px;
+}
+form legend span{
+  position: relative;
+  top: 27px;
+  transition: all 250ms ease-in-out;
+}
+form legend span.placeholder{
+  top: 0px;
+}
+form input, form textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 2;
+  border-width: 0 0 1px 0;
+  border-style: solid;
+  border-color: hsla(0, 0%, 90%, 1);
+}
+form textarea {
+  flex: 1;
+  margin-right: 20px;
+}
+form button[type="button"]{
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 2;
+  width: 20vw;
+  padding: 10px;
+  align-self: flex-end;
+  border: none;
+  color: white;
+  /*background-image: linear-gradient(
+    to bottom,
+    hsla(198, 50%, 58%, 1),
+    hsla(360, 50%, 70%, 1)
+    );*/
+  position: relative;
+  z-index: 1;
+  background-color: black;
+  cursor: pointer;
+}
+form button[type="button"]::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(
+    to bottom,
+    hsla(198, 50%, 58%, 1),
+    hsla(198, 50%, 70%, 1)
+    );
+    z-index: -1;
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
+}
+form button[type="button"]:hover::before {
+  opacity: 0;
+}
+
+form button[type="button"]:hover {
+  background-image: linear-gradient(
+    to bottom,
+    hsla(198, 50%, 0%, 1),
+    hsla(360, 50%, 0%, 1)
+    );
+}

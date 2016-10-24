@@ -1,0 +1,37 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body{
+  font-family: 'Roboto',sans-serif;
+}
+
+section#models {
+  background-image: url(../img/bg-image-1.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 15vw 0 15vw 50%;
+}
+h2 {
+  text-transform: uppercase;
+}
+h2 + hr {
+  width: 12vw;
+  border: 3px solid hsl(198, 100%, 58%);
+}
+hr {
+  margin: 0;
+  border: none;
+  height: 1px;
+  background-color: hsl(0, 0%, 90%);
+}
+section#models ul {
+  margin: 0;
+  paddingL: 0;
+  list-style: none;
+}
+section#models li {
+
+}
+progress {
+  width: 100%;
+  border: none;
+}
