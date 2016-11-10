@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+body{
+  font-family: 'Press Start 2P', cursive;
+
+}
+nav {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  position: fixed;
+  width: 100%;
+}
+nav ul li {
+  display: inline-block;
+  font-size: 18px;
+  padding: 10px;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+header{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+#me{
+  display: flex;
+  padding-left: 510px;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+}
+#Hi{
+  color: white;
+  font-size: 13px;
+  padding: 50px 50px;
+}
+hr{
+  width: 400px;
+}
+hr:nth-of-type(2){
+  width: 100px;
+}
+hr:nth-of-type(3){
+  width: 100px;
+}
+hr:nth-of-type(4){
+  width: 400px;
+}
+hr:nth-of-type(5){
+  width: 400px;
+}
+h3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 50px 50px;
+  color: white;
+}
+#spoopy{
+  padding-bottom: 20px;
+}
+#spoopy img{
+  width: 100vw;
+}
+#spoopy p{
+  font-size: 15px;
+  padding: 30px 30px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#cars{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#cars img{
+  width: 100vw;
+}
+#cars p{
+  font-size: 15px;
+  color: white;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#bierrock{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#bierrock img{
+  width: 100vw;
+}
+#bierrock p{
+  font-size: 15px;
+  color: white;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#butters{
+  padding-top: 20px;
+}
+#butters img{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 400px;
+  width: 500px;
+  height: 500px;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+#butters p{
+  font-size: 15px;
+  color: white;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#contact{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+}
+#contact hr{
+  width: 100px;
+}
+#contact p{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: white;
+}

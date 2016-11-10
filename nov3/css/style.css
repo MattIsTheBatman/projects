@@ -1,0 +1,41 @@
+html{
+  background-image: url(../img/headbg.jpg), url(../img/bobybg.jpg);
+  background-repeat: no-repeat, repeat-x;
+  background-position: center top;
+  background-color: black;
+}
+header nav{
+  display: flex;
+}
+body{
+  margin: 0;
+  color: white;
+}
+
+
+section{
+  background-image: url(../img/leftbg.jpg), url(../img/mainbg.jpg);
+  background-position: right top;
+  background-repeat: no-repeat, repeat-x;
+  width: 64%;
+  float: left;
+}
+aside{
+  background-image: url(../img/rightbg.png), url(../img/mainbg.jpg);
+  background-repeat: no-repeat, repeat-x;
+  background-position: right top;
+  width: 34%;
+  float: right;
+}
+main::after {
+display: block;
+content: "";
+clear: both;
+}
+.class{
+  width: 800px;
+  margin: 0 auto;
+}
+#mega{
+  background-color: hsl(9, 83%, 9%);
+}
