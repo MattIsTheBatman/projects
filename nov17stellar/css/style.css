@@ -40,9 +40,20 @@ main{
   color: black;
   font-size: 51px;
   width: 80px;
+  height: 2px;
+  background-color: black;
 }
 #sec3 div i{
   font-size: 60px;
+}
+#sec3 i:nth-of-type(1){
+  color: hsla(353, 69%, 80%, 1);
+}
+#sec3 i:nth-of-type(2){
+  color: hsla(256, 29%, 70%, 1);
+}
+#sec3 i:nth-of-type(3){
+  color: hsla(203, 77%, 75%, 1);
 }
 #sec3 div{
   display: flex;
@@ -58,5 +69,60 @@ main{
   font-size: 20px;
   margin: 0px 20px;
   color: hsla(0, 0%, 39%, 1);
-
+}
+#sec5{
+  display: flex;
+}
+#sec5 #sec{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#sec5 hr{
+  color: black;
+  font-size: 51px;
+  width: 80px;
+  height: 2px;
+  background-color: black;
+}
+#sec5 h3{
+  display: flex;
+  justify-content: center;
+  color: hsla(0, 0%, 39%, 1);
+  font-size: 21px;
+  font-family: 'Roboto', sans-serif;
+}
+#sec5 p{
+  font-size: 17px;
+  margin: 0px 250px;
+  color: hsla(0, 0%, 39%, 1);
+}
+#sec5 .button {
+    border: 1px solid lightgray;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#sec5 button:nth-of-type(1){
+  background-color: hsla(204, 77%, 78%, 1);
+}
+#sec5 button:nth-of-type(2){
+  color: hsla(0, 0%, 39%, 1);
+  margin-right: 30px;
+  background-color: white;
+}
+#sec5 .button {
+  border-radius: 4px;
+}
+#sec5 ul{
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
