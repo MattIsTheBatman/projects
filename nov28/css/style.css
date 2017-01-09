@@ -1,0 +1,23 @@
+body{
+  font-family: sans-serif;
+  background-color: hsl(0, 0%, 90%);
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a.btn{
+  display: inline-block;
+  padding: 12px 20px 10px;
+  background-color: hsl(348, 95%, 56%);
+  color: white;
+  font-weight: 600;
+  border-radius: 50px;
+  border: 2px solid white;
+
+}
