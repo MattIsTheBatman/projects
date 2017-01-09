@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Pacifico');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+  font-family: Montserrat, sans-serif;
+}
+.btn{
+  border: solid 1px lightgrey;
+  background-color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.btn-cta{
+  background-color: hsl(9, 89%, 67%);
+  border: none;
+  color: white;
+}
+h1{
+  margin: 0;
+  font-family: Pacifico, cursive;
+  color: hsl(9, 89%, 67%);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+nav ul{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: hsl(193, 68%, 45%);
+  padding: 20px;
+  width: 250px;
+  height: 100vh;
+}
+nav li{
+  border-bottom: hsla(0, 0%, 100%, 0.25);
+}
+nav a{
+
+}
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 100px;
+}
+#hero div{
+  width: 75%;
+}
+#hero btn-cta{
+  display: inline-block;
+}
