@@ -17,6 +17,7 @@ body{
   background-color: hsl(9, 89%, 67%);
   border: none;
   color: white;
+  text-decoration: none;
 }
 h1{
   margin: 0;
@@ -33,17 +34,21 @@ nav{
   width: 100%;
   box-sizing: border-box;
 }
-nav ul{
+nav div{
   position: absolute;
   top: 0;
-  left: 0;
+  left: -500px;
   background-color: hsl(193, 68%, 45%);
-  padding: 20px;
   width: 250px;
   height: 100vh;
+  transition: all 150ms ease-out;
+}
+nav div.open {
+  left: 0px;
 }
 nav li{
   border-bottom: hsla(0, 0%, 100%, 0.25);
+  display: flex;
 }
 nav a{
 
@@ -64,4 +69,8 @@ nav a{
 }
 #hero btn-cta{
   display: inline-block;
+
+}
+p{
+  color: grey;
 }

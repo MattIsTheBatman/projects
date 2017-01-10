@@ -3,20 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="img">
   <title>Intensify</title>
 </head>
 <body>
 
   <nav>
-    <i class="fa fa-bars"></i>
+    <i id="sn-open" class="fa fa-bars"></i>
     <h1>intensify</h1>
     <button class="btn">Log In</button>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Generic</a></li>
-      <li><a href="#">Elements</a></li>
-    </ul>
+    <div id="sn">
+      <i id="sn-close" class="fa fa-times" aria-hidden="true"></i>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Generic</a></li>
+        <li><a href="#">Elements</a></li>
+      </ul>
+    </div>
   </nav>
   <div id="hero">
     <div>
@@ -26,5 +28,6 @@ sed arcu cras consecuat lorem ipsum dolor sit amet.</p>
       <a href="#" class="btn btn-cta">GET STARTED</a>
   </div>
 </div>
+<script src="js/script.js"></script>
 </body>
 </html>
