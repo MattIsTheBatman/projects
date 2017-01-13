@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open-Sans:300,600|Pacifico');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body{
+  font-family: Montserrat, sans-serif;
+}
+.btn{
+  border: solid 1px lightgrey;
+  background-color: white;
+  padding: 15px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-family: inherit;
+}
+.btn-cta{
+  background-color: hsl(9, 89%, 67%);
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+h1{
+  margin: 0;
+  font-family: Pacifico, cursive;
+  color: hsl(9, 89%, 67%);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+nav div{
+  position: absolute;
+  top: 0;
+  left: -500px;
+  background-color: hsl(193, 68%, 45%);
+  width: 250px;
+  height: 100vh;
+  transition: all 150ms ease-out;
+}
+nav div.open {
+  left: 0px;
+}
+nav li{
+  border-bottom: hsla(0, 0%, 100%, 0.25);
+  display: flex;
+}
+nav a{
+
+}
+#hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/banner.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px 0 100px;
+}
+#hero div{
+  width: 75%;
+}
+#hero btn-cta{
+  display: inline-block;
+
+}
+p{
+  color: grey;
+}
+.sec1{
+  width: 100%;
+  display: flex;
+}
+.sec1 div{
+  display: flex;
+  justify-content: center;
+}
+
+#column1{
+  display: flex;
+
+}
+#column1 h3{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+#column1 p{
+  width: 200px;
+  font-size: 12px;
+}
+#column2{
+  display: flex;
+
+}
+#column2 h3{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+#column2 p{
+  width: 200px;
+  font-size: 12px;
+}
+#circle {
+	border-radius: 50%;
+	width:300px;
+	height:300px;
+}
+#column3{
+  display: flex;
+}
+#column3 h3{
+  align-items: flex-start;
+}
+#column3 p{
+  width: 200px;
+  font-size: 12px;
+}

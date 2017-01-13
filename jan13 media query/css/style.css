@@ -1,0 +1,33 @@
+body, a:hover {cursor: url(http://cur.cursors-4u.net/toons/too-9/too856.cur), progress !important;}body{
+margin: 0;
+}
+nav{
+  background-color: #ddd;
+  padding: 20px;
+}
+nav ul{
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+main{
+  text-align: center;
+}
+img{
+  width: 35%;
+}
+footer{
+  background-color: #303030;
+  color: white;
+  padding: 20px;
+}
+@media print{
+    nav, footer{
+      display: none;
+    }
+}
+@media screen and (max-width: 768px){
+
+}
