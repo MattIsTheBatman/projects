@@ -169,3 +169,11 @@ h3{
   justify-content: center;
   color: white;
 }
+#js{
+  font-size: 15px;
+  color: white;
+  padding: 30px 30px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

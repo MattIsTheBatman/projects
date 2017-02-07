@@ -48,3 +48,6 @@ if( parseInt (numFive) ){
 
 // var userAge = prompt('what is your age?');
 // console.log( parseInt(userAge) );
+
+var userName = prompt('Hello! What is your name?')
+var intro = Suh
