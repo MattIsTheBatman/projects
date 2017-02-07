@@ -15,9 +15,9 @@ var ohGod = prompt('This is my grandson. He has been your rival since you were a
 var rival = alert('Er, was it' + ' ' + ohGod + '?');
 var right = alert('Thats right! I remember now! His name is' + ' ' + ohGod );
 var pokemon = prompt('Now its time for you to choose a pokemon, which pokemon will you choose');
-var confirmation, pokemonAgain = confirm('Are you sure you would like to choose this pokemon?');
+var confirmation, pokemonAgain = confirm('Are you sure you would like to choose this pokemon? It looks kinda weak.');
   if(confirmation){
-    var pokeName = alert('What a great pokemon!');
+    var pokeName = alert('What a great pokemon, if you like having a weak pokemon and getting nowhere in life.');
   } else{
     var pokemonAgain = prompt('Then what pokemon will you choose?');
   };
