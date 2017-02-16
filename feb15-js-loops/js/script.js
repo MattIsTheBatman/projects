@@ -6,7 +6,7 @@ add.addEventListener('click', function(){
   askForColor();
 });
 
-remove.addEventListener('click', function(){
+remove.addventListener('click', function(){
   // alert('Youre still a nerd')
   var re = /ab+c/;
   console.log(re);
@@ -21,10 +21,10 @@ function askForColor(){
    console.log(colorPrompt);
    console.log(!colorPrompt);
    if(!!null){
-     var userColorCheck = colorPrompt.toLowerCase().trim();
-     if(!isNaN(parseInt(colorPrompt))){
-       askForColor();
-     }else{
+      var userColorCheck = colorPrompt.toLowerCase().trim();
+      if(!isNaN(parseInt(colorPrompt))){
+          askForColor();
+      }else{
        askForColor();
      }else{
      alert('does it work?')
